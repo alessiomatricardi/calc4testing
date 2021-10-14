@@ -1,8 +1,6 @@
 # ASE Calc Microservice
 
-[![Build Status](https://app.travis-ci.com/alessiomatricardi/calc4testing.svg?branch=master)](https://app.travis-ci.com/alessiomatricardi/calc4testing)
-
-[![Coverage Status](https://coveralls.io/repos/github/alessiomatricardi/calc4testing/badge.svg?branch=main)](https://coveralls.io/repos/github/alessiomatricardi/calc4testing?branch=main)
+[![Build Status](https://app.travis-ci.com/alessiomatricardi/calc4testing.svg?branch=master)](https://app.travis-ci.com/alessiomatricardi/calc4testing) [![Coverage Status](https://coveralls.io/repos/github/alessiomatricardi/calc4testing/badge.svg?branch=master)](https://coveralls.io/github/alessiomatricardi/calc4testing?branch=master)
 
 ### Setup the environment
 

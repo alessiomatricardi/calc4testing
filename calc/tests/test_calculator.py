@@ -1,9 +1,6 @@
 from calc.calculator import calculator as c
 import unittest
 
-# TODO: Extend these unit tests for the calculator module!
-
-
 class TestAdd(unittest.TestCase):
     def test_add_integers_positive(self):
         result = c.sum(1, 2)
