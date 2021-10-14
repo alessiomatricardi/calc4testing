@@ -60,6 +60,37 @@ class TestAdd(unittest.TestCase):
     def test_divide_by_zero(self):
         self.assertRaises(ZeroDivisionError, c.divide, 6, 0)
 
+    def test_multiply_int_pos(self):
+        result = c.multiply(5, 7)
+        self.assertEqual(result, 35)
+    
+    def test_multiply_int_pos_neg(self):
+        result = c.multiply(5, -7)
+        self.assertEqual(result, -35)
 
+    def test_multiply_int_neg_pos(self):
+        result = c.multiply(-5, 7)
+        self.assertEqual(result, -35)
+
+    def test_multiply_int_neg(self):
+        result = c.multiply(-5, -7)
+        self.assertEqual(result, 35)
+    
+    def test_sub_integers_positive(self):
+            result = c.subtract(1, 2)
+            self.assertEqual(result, -1)
+
+    def test_sub_integers_negative(self):
+        result = c.subtract(-1, -2)
+        self.assertEqual(result, 1)
+
+    def test_sub_integers_pos_neg(self):
+        result = c.subtract(1, -2)
+        self.assertEqual(result, 3)
+
+    def test_sub_integers_neg_pos(self):
+        result = c.subtract(-1, 2)
+        self.assertEqual(result, -3)
+        
 if __name__ == "__main__":
     unittest.main()
