@@ -10,3 +10,9 @@ __pycache__/
 venv/
 */venv/
 */*/venv/
+
+# Coverage files
+
+htmlcov/
+*/htmlcov/
+*/*/htmlcov/
